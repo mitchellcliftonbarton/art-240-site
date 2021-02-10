@@ -1,0 +1,21 @@
+p {
+    font-size: 50px;
+    font-family: 'Georgia';
+    color: dodgerblue;
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+
+#main-title {
+    font-size: 100px
+}
+
+a {
+    font-size: 70px;
+    color: #6617a3;
+    text-decoration: underline;
+}
+
+div {
+    border: 1px solid purple;
+}
