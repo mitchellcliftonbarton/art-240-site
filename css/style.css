@@ -1,21 +1,38 @@
-p {
-    font-size: 50px;
-    font-family: 'Georgia';
-    color: dodgerblue;
-    letter-spacing: 5px;
-    line-height: 20px;
+body {
+    margin: 0px;
 }
 
-#main-title {
-    font-size: 100px
+#header {
+    border-bottom: 1px solid #cacaca;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
-a {
-    font-size: 70px;
-    color: #6617a3;
-    text-decoration: underline;
+#header a {
+    margin-right: 15px;
+    color: red;
+    text-decoration: none;
 }
 
-div {
-    border: 1px solid purple;
+#content {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#content .bio {
+    margin-bottom: 60px;
+}
+
+#content img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#footer {
+    padding: 20px;
+    border-top: 1px solid #cacaca;
 }
