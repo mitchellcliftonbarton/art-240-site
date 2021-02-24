@@ -1,4 +1,4 @@
-body {
+body, p {
     margin: 0px;
 }
 
@@ -8,6 +8,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: white;
+    text-align: center;
 }
 
 #header a {
@@ -21,6 +22,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    min-height: 100vh;
 }
 
 #content .bio {
@@ -29,10 +31,32 @@ body {
 
 #content img {
     width: 50%;
-    margin-bottom: 20px;
+    margin: 0 auto 30px auto;
+    display: block;
+}
+
+#content p {
+    width: 50%;
+    margin: 0 auto 30px auto;
+    display: block;
 }
 
 #footer {
     padding: 20px;
     border-top: 1px solid #cacaca;
+    text-align: center;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
